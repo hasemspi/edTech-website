@@ -1,0 +1,16 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+}
+.cphi h1{
+    font-size: 4.5rem;
+}
+.cphi p{
+    font-size: 22px;
+}
+.cphi{
+    height: 60vh;
+}
