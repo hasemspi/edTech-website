@@ -14,3 +14,12 @@ body{
 .cphi{
     height: 58vh;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .shrink_{
+        flex-direction: column;
+        border: none !important;
+        border-radius: none !important;
+    }
+}
+
