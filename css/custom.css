@@ -17,33 +17,27 @@ body{
 .text_in{
     color:#289BDE;
 }
-@media (min-width: 320px) and (max-width: 767px) {
-    .shrink_{
-        flex-direction: column;
-        border: none !important;
-        border-radius: none !important;
-    }
-    .cphi {
-        height: 17vh;
-      }
-      .cphi h1 {
-        font-size: 1rem;
-      }
-      .cphi p{
-        font-size: 10px;
-    }
+.button_are{
+    background-color: #fff;
+    color: #289BDE;
 }
-
+.wtd{
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .shrink_{flex-direction: column;border: none !important;border-radius: none !important;}
+    .cphi {height: 17vh;}
+    .cphi h1 {font-size: 1rem;}
+    .cphi p{ font-size: 10px;}
+   
+}
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .cphi {
-        height: 23vh;
-      }
-      .cphi h1 {
-        font-size: 2rem;
-      }
-      .cphi p{
-        font-size: 14px;
-    }
+    .cphi {height: 23vh;}
+    .cphi h1 {font-size: 2rem;}
+    .cphi p{font-size: 14px;}
+   
 
  }
 
