@@ -22,22 +22,24 @@ body{
     color: #289BDE;
 }
 .wtd{
-    flex-direction: inherit;
-    justify-content: center;
-    align-items: center;
+    background-color: #289BDE;
+}
+.left{width: 50%;}
+.company_ig img{
+
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .shrink_{flex-direction: column;border: none !important;border-radius: none !important;}
     .cphi {height: 17vh;}
     .cphi h1 {font-size: 1rem;}
     .cphi p{ font-size: 10px;}
-   
+    .wtd {flex-direction: column;align-items: center; text-align: center;}.left{width: 100%;}
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .cphi {height: 23vh;}
+    .cphi {height: 23vh;} #company{display: none;}
     .cphi h1 {font-size: 2rem;}
     .cphi p{font-size: 14px;}
-   
+    .wtd {flex-direction: column;align-items: center; text-align: center;}.left{width: 100%;}
 
  }
 
