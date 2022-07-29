@@ -14,9 +14,7 @@ body{
 .cphi{
     height: 58vh;
 }
-.text_in{
-    color:#289BDE;
-}
+.text_in{color: #289BDE;border: 1px solid #289BDE;}
 .button_are{
     background-color: #fff;
     color: #289BDE;
@@ -25,20 +23,26 @@ body{
     background-color: #289BDE;
 }
 .left{width: 50%;}
-.company_ig img{
-
+.social_icon i{
+    padding: 7px;
+}
+.text_co h1{
+    
+}
+.text_co{
+    color: #f8f6f6;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .shrink_{flex-direction: column;border: none !important;border-radius: none !important;}
-    .cphi {height: 17vh;}
+    .cphi {height: 17vh;}.text_in{color: #289BDE;border:none; padding-left: 0px;}
     .cphi h1 {font-size: 1rem;}
-    .cphi p{ font-size: 10px;}
+    .cphi p{ font-size: 8px;}
     .wtd {flex-direction: column;align-items: center; text-align: center;}.left{width: 100%;}
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .cphi {height: 23vh;} #company{display: none;}
-    .cphi h1 {font-size: 2rem;}
-    .cphi p{font-size: 14px;}
+    .cphi {height:21vh;} #company{display: none;}
+    .cphi h1 {font-size: 2rem;}.text_in{color: #289BDE;border:none;padding-left: 0px;}
+    .cphi p{font-size: 13px;}
     .wtd {flex-direction: column;align-items: center; text-align: center;}.left{width: 100%;}
 
  }
